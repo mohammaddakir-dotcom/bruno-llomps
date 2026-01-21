@@ -1,0 +1,12 @@
+opencollection: 1.0.0
+info:
+  name: "llomps"
+  type: workspace
+
+collections:
+  - name: "bruno-llomps"
+    path: "collections\\AI"
+
+specs:
+
+docs: ''

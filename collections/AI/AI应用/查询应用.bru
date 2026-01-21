@@ -1,0 +1,20 @@
+meta {
+  name: 查询应用
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{base}}/app/:id
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: b71fcf8e-b3fc-4cad-b4bc-a0509e7b916c
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
